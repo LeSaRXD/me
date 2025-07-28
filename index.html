@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="./styles.css">
+		<title>Laysar's page</title>
+	</head>
+	<body>
+		<script src="./js/scroll.js"></script>
+		<script src="./js/colorpicker.js"></script>
+		<script src="./js/images.js"></script>
+
+		<div id="image_fullscreen" style="display: none;">
+			<img draggable="false">
+		</div>
+
+		<header>
+			<div id="scrollbar">
+				<div id="scrollbar_fade">
+					<div id="scrollbar_icons">
+						<a href="#home" class="scrollbar_icon"><img src="./static/scroll/home.png"></a>
+						<a href="#about" class="scrollbar_icon"><img src="./static/scroll/about.png"></a>
+						<a href="#links" class="scrollbar_icon"><img src="./static/scroll/link.png"></a>
+						<a href="#projects" class="scrollbar_icon"><img src="./static/scroll/pc.png"></a>
+						<a href="#laysar" class="scrollbar_icon"><img src="./static/scroll/fox.png"></a>
+					</div>
+				</div>
+			</div>
+		</header>
+		<div id="content">
+			<section aria-labelledby="home">
+				<h1 id="home">Home</h1>
+				<p>
+					This is the homepage of Laysar (aka LeSaR) (thats me!) :3
+				</p><p>
+					The navigation bar on top is interactable, feel free to jump the website.
+				</p>
+			</section>
+			<section aria-labelledby="about">
+				<h1 id="about">About me</h1>
+				<p>
+					Hi! My name is Gray, but you probably know me as Laysar (or LeSaR).
+				</p><p>
+					I'm currently 19 years old, studying compsci in college. My goal is to become a backend developer, but I dabble in frontend development sometimes, hence the existence of this website!
+				</p><p>
+					I'm transfem non-binary, use she/they/it, and am ace + demiromantic (of the pan variety).
+				</p><p>
+					I've been coding starting at 11 years old. I went from Scratch, to Javascript, to Java, (skip a few), to eventually settling on Rust. It's an awesome language. You can find the best of my projects listed <a href="#projects">below</a>.
+				</p>
+			</section>
+			<section aria-labelledby="links">
+				<h1 id="links">Links</h1>
+				<p>
+					These are links to most of my socials!
+				</p>
+				<div id="links_list">
+					<a target="_blank" href="https://bsky.app/profile/laysar.draws.pics">
+						<div class="link_img_wrapper" id="bsky_img">
+							<img src="./static/bsky.png" alt="Bluesky logo">
+						</div>
+						<span>Bluesky</span>
+					</a>
+					<a target="_blank" href="https://mcsrranked.com/stats/79635c3d-bf63-4a22-8bf4-4544cc7c0d27">
+						<div class="link_img_wrapper" id="mcsr_ranked_img">
+							<img src="./static/ranked/1.png">
+							<img src="./static/ranked/2.png">
+							<img src="./static/ranked/3.png">
+							<img src="./static/ranked/4.png">
+						</div>
+						<span>MCSR Ranked</span>
+					</a>
+					<a target="_blank" href="https://en.pronouns.page/@laysar">
+						<div class="link_img_wrapper" id="pronouns_page_img">
+							<img src="./static/cat.png" alt="Thurston Waffles, a white cat screaming dramatically">
+						</div>
+						<span>Pronouns page</span>
+					</a>
+					<a target="_blank" href="https://discord.com/users/519081871766978572">
+						<div class="link_img_wrapper" id="discord_img">
+							<img src="./static/discord.png" alt="Discord logo">
+						</div>
+						<span>Discord</span>
+					</a>
+				</div>
+			</section>
+			<section aria-labelledby="projects">
+				<h1 id="projects">My (best) projects</h1>
+				<p id="project_list">
+					<a target="_blank" href="https://lesarxd.github.io/ranked-versus/">MCSR Ranked Versus Lookup</a>
+					<a target="_blank" href="https://github.com/LeSaRXD/mcsr-ranked-api-rs">MCSR Ranked API in Rust</a>
+					<a target="_blank" href="https://github.com/LeSaRXD/BastionHelper">BastionHelper Mod</a>
+				</p>
+			</section>
+			<section aria-labelledby="laysar">
+				<h1 id="laysar">My sona</h1>
+				<p>
+					Laysar is my main sona (a truesona). She is a red fox, is the same age, orientation, gender, and uses the same pronouns as me.<hr>
+				<section id="color_palette_section" aria-labelledby="color_palette">
+					<h2 id="color_palette">Color palette</h2>
+					<span class="hint">Click a color to copy it</span>
+					<div class="colors">
+						<span>Body</span>
+						<div style="--color: #5a5261" title="#5a5261"></div>
+						<div style="--color: #856b76" title="#856b76"></div>
+						<div style="--color: #ba7a54" title="#ba7a54"></div>
+						<div style="--color: #bc8a8b" title="#bc8a8b"></div>
+						<div style="--color: #c4adc1" title="#c4adc1"></div>
+					</div>
+					<div class="colors">
+						<span>Eyes</span>
+						<div style="--color: #da65ab" title="#da65ab"></div>
+						<div style="--color: #dc6a69" title="#dc6a69"></div>
+						<div style="--color: #40273a" title="#40273a"></div>
+					</div>
+					<div class="colors">
+						<span>Paws</span>
+						<div style="--color: #d772a9" title="#d772a9"></div>
+						<div style="--color: #d086c3" title="#d086c3"></div>
+					</div>
+					<div class="colors">
+						<span>Hair</span>
+						<div style="--color: #756896" title="#756896"></div>
+						<div style="--color: #7e589b" title="#7e589b"></div>
+					</div>
+				</section>
+
+				<div class="gallery">
+					<img draggable="false" src="./static/laysar/ref.png" alt="Laysar's reference sheet">
+					<img draggable="false" src="./static/laysar/pfp.png" alt="Laysar's profile picture, featuring a headshot on a trans flag background">
+					<img draggable="false" src="./static/laysar/yipee.png" alt="Laysar fullbody drawing made by chalkolate">
+					<img draggable="false" src="./static/laysar/skin.png" alt="Laysar's minecraft skin">
+				</div>
+			</section>
+		</div>
+	</body>
+</html>
